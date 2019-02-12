@@ -1,0 +1,132 @@
+html, body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  top: 0%;
+}
+
+a {
+  color: seashell;
+}
+
+#space {
+  flex: 1;
+}
+
+#nav {
+  color: seashell;
+  padding: 25px;
+
+}
+
+#nav a {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+#logo {
+  height: 50px;
+  padding: 10px;
+}
+
+.block1 {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  max-width: 1200px;
+  background: url("img-mission-background.jpg") no-repeat center;
+  margin: auto;
+}
+
+
+.block1text {
+  width: 1200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  position: absolute;
+  top: 40%;
+}
+
+
+.block2 {
+  align-items: center;
+  background-color: black;
+  max-width: 1000px;
+  text-align: center;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.product {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+}
+
+.locations {
+  min-height: 500px;
+  opacity: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background: url("img-locations-background.jpg") no-repeat center;
+}
+
+.locations h2 {
+  padding-top: 7%;
+}
+
+.info {
+  justify-content: center;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  bottom: 45%;
+}
+
+.square {
+  padding: 10px;
+  background: black;
+  width: 300px;
+  margin: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  height: 20px;
+  text-align: left;
+}
