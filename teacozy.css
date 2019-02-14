@@ -1,43 +1,3 @@
-html, body {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-}
-
-header {
-  display: flex;
-  text-decoration: none;
-  width: 100%;
-  height: 69px;
-  border-bottom: 1px solid seashell;
-  position: fixed;
-  z-index: 1;
-  background-color: black;
-  top: 0%;
-}
-
-a {
-  color: seashell;
-}
-
-#space {
-  flex: 1;
-}
-
-#nav {
-  color: seashell;
-  padding: 25px;
-
-}
-
-#nav a {
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-left: 20px;
-}
-
 #logo {
   height: 50px;
   padding: 10px;
@@ -54,7 +14,7 @@ a {
 
 
 .block1text {
-  width: 1200px;
+  width: 100%;
   align-items: center;
   text-align: center;
   justify-content: center;
